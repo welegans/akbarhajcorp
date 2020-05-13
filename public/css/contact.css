@@ -1,0 +1,78 @@
+.contact{
+  /* background-color: #fff;
+  color: #2c2f33; */
+  background-color:#7289da;
+  color:#fff;
+  padding:  3em;
+  }
+.contact h4{
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 1em;
+  font-family: 'Open Sans', sans-serif
+}
+p{
+  font-size: 1.1em;
+}
+.banner{
+  width: 100%;
+  height: 12em;
+  margin-top: 4em;
+  background: url('../imgs/im12.jpg') center;
+  background-size: cover;
+}
+.banner h1{
+  position: absolute;
+  color: white;
+  text-align: center;
+  left: 40%;
+  top: 25%;
+}
+#color-overlay {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: black;
+   opacity: 0.5;
+}
+.cform{
+  padding: 0 3em;
+}
+.cmap{
+  padding: 1em 2em;
+}
+h5{
+  font-weight: bold;
+}
+label{
+  font-weight: bold;
+}
+#map {
+  /* border-radius: 50%; */
+      width: 100%;
+      height: 20em;
+      background-color: grey;
+    }
+@media only screen and (max-width: 1200px) {
+  .banner{
+    margin-top: 4em;
+  }
+  .banner h1{
+  position: absolute;
+  color: white;
+  text-align: center;
+  left: 20%;
+  top: 15%;
+}
+  .contact{
+    padding:  1em;
+  }
+  .cform{
+  padding: 0 1em;
+}
+.cmap{
+  padding: 1em 1em;
+}
+}
